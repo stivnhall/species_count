@@ -1,5 +1,5 @@
 eagle,1
 mallard,14
-robin,4
+Turdus migratorious,4
 bluejay,7
 sparrow,7

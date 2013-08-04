@@ -1,89 +1,89 @@
-Software carpentry workshop
+Software,carpentry,workshop
 
 softwarecarpentry.org
 
-shell: communicate with text
---automate data analysis
---combine existing tools
---interacting with remote machines
+shell:,communicate,with,text
+--automate,data,analysis
+--combine,existing,tools
+--interacting,with,remote,machines
 
-see where we are: pwd, print working directory
+see,where,we,are:,pwd,,print,working,directory
 
-#list what's there: 
+#list,what's,there:,
 ls
-#show what's a directory
-ls -F 
-# move around directory structure
-cd Documents
+#show,what's,a,directory
+ls,-F,
+#,move,around,directory,structure
+cd,Documents
 
-# can use full paths
-cd /Users/stevenhall
+#,can,use,full,paths
+cd,/Users/stevenhall
 
-#can use "tab" to complete things
-#use up and down arrows to cycle through commands
-# if the computer can do it, let it do it.
+#can,use,"tab",to,complete,things
+#use,up,and,down,arrows,to,cycle,through,commands
+#,if,the,computer,can,do,it,,let,it,do,it.
 
-#make directory
-mkdir swc2
-#text editor
+#make,directory
+mkdir,swc2
+#text,editor
 nano
 
-# use "mv" to move/copy/rename
-mv data.txt data_greencanyon_2013.txt
+#,use,"mv",to,move/copy/rename
+mv,data.txt,data_greencanyon_2013.txt
 
-mkdir backup
+mkdir,backup
 
-"cp" for copy
-"mv" for move
-cp data_greencanyon_2013.txt data_greencanyon_2013_backup.txt
+"cp",for,copy
+"mv",for,move
+cp,data_greencanyon_2013.txt,data_greencanyon_2013_backup.txt
 
-mv data_greencanyon_2013_backup.txt backup
+mv,data_greencanyon_2013_backup.txt,backup
 
-cat data_greencanyon_2013.txt
+cat,data_greencanyon_2013.txt
 
-sort data_greencanyon_2013.txt
+sort,data_greencanyon_2013.txt
 
-sort --help
+sort,--help
 
-sort by different columns
-sort third column like a number
-sort -k 3 -n data_greencanyon_2013.txt
+sort,by,different,columns
+sort,third,column,like,a,number
+sort,-k,3,-n,data_greencanyon_2013.txt
 
-use > sign to direct output into a file
+use,>,sign,to,direct,output,into,a,file
 
-use cat to look inside file "concatenate"
+use,cat,to,look,inside,file,"concatenate"
 
-tail sorted_counts.txt
+tail,sorted_counts.txt
 
-tail -1 sorted_counts.txt
+tail,-1,sorted_counts.txt
 
-head -1 sorted_counts.txt
+head,-1,sorted_counts.txt
 
-sort -k 3 -n data_greencanyon_2013.txt >sorted_counts.txt
+sort,-k,3,-n,data_greencanyon_2013.txt,>sorted_counts.txt
 
-head -2 sorted_counts.txt
+head,-2,sorted_counts.txt
 
-#pipe symbol | pass output through pipe to next command
+#pipe,symbol,|,pass,output,through,pipe,to,next,command
 
-sort -n -k 3 data_greencanyon_2013.txt | head -2
+sort,-n,-k,3,data_greencanyon_2013.txt,|,head,-2
 
-sort -n -k 3 data_greencanyon_2013.txt | tail -1
+sort,-n,-k,3,data_greencanyon_2013.txt,|,tail,-1
 
-# control c will get you out if you get stuck
+#,control,c,will,get,you,out,if,you,get,stuck
 
-#shell allows you to use tools from different origins
-
-
+#shell,allows,you,to,use,tools,from,different,origins
 
 
 
 
 
 
-use "terminal" on mac
+
+
+use,"terminal",on,mac
 
 
 regexp
 
-version control
+version,control
 

@@ -1,0 +1,5 @@
+bluejay 7
+eagle 1
+mallard 14
+robin 4
+sparrow 7

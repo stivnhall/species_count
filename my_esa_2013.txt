@@ -1,0 +1,129 @@
+    1  kexstat
+    2  kexstat
+    3  kextstat
+    4  sudo kextunload -b com.apple.iokit.IOUSBMassStorageClass
+    5  kext
+    6  kextstat
+    7  kextstat
+    8  kextstat
+    9  kextstat
+   10  kextstat
+   11  kextstat
+   12  kextstat
+   13  kextstat
+   14  kextstat
+   15  kextstat
+   16  dmesg 
+   17  sudo dmesg
+   18  sudo dmesg
+   19  cd /var/log
+   20  ls
+   21  ls -latF|more
+   22  tail windowserver.log 
+   23  tail crashreporter.log 
+   24  date
+   25  tail system.log
+   26  less system.log
+   27  fsck --help
+   28  fsck_hfs --help
+   29  ls /etc/init.d/
+   30  exit
+   31  cd ~/Desktop ; /usr/bin/curl -L -f -b ~/.neoffice.org.cookies.txt -c ~/.neooffice.org.cookies.txt -C - -o 'NeoOffice-2.2.3-Intel.dmg' 'http://www.neooffice.org/neojava/en/mirrors.php?file=NeoOffice-2.2.3-Intel.dmg&curl=NeoOffice-2.2.3-Intel.dmg'
+   32  cd ~/Desktop ; /usr/bin/curl -L -f -b ~/.neoffice.org.cookies.txt -c ~/.neooffice.org.cookies.txt -C - -o 'NeoOffice-2.2.3-Intel.dmg' 'http://www.neooffice.org/neojava/en/mirrors.php?file=NeoOffice-2.2.3-Intel.dmg&curl=NeoOffice-2.2.3-Intel.dmg'
+   33  cd ~/Desktop ; /usr/bin/curl -L -f -b ~/.neoffice.org.cookies.txt -c ~/.neooffice.org.cookies.txt -C - -o 'NeoOffice-2.2.3-Intel.dmg' 'http://www.neooffice.org/neojava/en/mirrors.php?file=NeoOffice-2.2.3-Intel.dmg&curl=NeoOffice-2.2.3-Intel.dmg'
+   34  cd ~/Desktop ; /usr/bin/curl -L -f -b ~/.neoffice.org.cookies.txt -c ~/.neooffice.org.cookies.txt -C - -o 'NeoOffice-2.2.3-Intel.dmg' 'http://www.neooffice.org/neojava/en/mirrors.php?file=NeoOffice-2.2.3-Intel.dmg&curl=NeoOffice-2.2.3-Intel.dmg'
+   35  cd ~/Desktop ; /usr/bin/curl -L -f -b ~/.neoffice.org.cookies.txt -c ~/.neooffice.org.cookies.txt -C - -o 'NeoOffice-2.2.3-Patch-4-Intel.dmg' 'http://www.neooffice.org/neojava/en/patchmirrors.php?file=NeoOffice-2.2.3-Patch-4-Intel.dmg&curl=NeoOffice-2.2.3-Patch-4-Intel.dmg'
+   36  "/Applications/Enthought/PyLab.app/Contents/MacOS/startup.command"; exit
+   37  "/Applications/Enthought/PyLab.app/Contents/MacOS/startup.command"; exit
+   38  "/Applications/Enthought/PyLab.app/Contents/MacOS/startup.command"; exit
+   39  perl -v
+   40  /Applications/SugarSync.app/Contents/Resources/SugarSyncUninstaller.command ; exit;
+   41  pwd
+   42  ls
+   43  ls -F
+   44  cd Documents
+   45  pwd
+   46  cd /Users/stevenhall
+   47  pwd
+   48  ls
+   49  cd Documents
+   50  ls
+   51  cd software carpentry
+   52  ls -F
+   53  cd software carpentry
+   54  cd software carpentry/
+   55  cd cd Documents/software carpentry
+   56  cd cd Documents/software carpentry
+   57  cd cd Documents/software carpentry
+   58  cd bikemap
+   59  cd /Users/stevenhall
+   60  nano
+   61  cd /Users/stevenhall
+   62  cd /Documents
+   63  mkdir swc
+   64  cd swc
+   65  ls
+   66  cd Documents
+   67  pwd
+   68  ls
+   69  cd ../
+   70  ls
+   71  cd ../
+   72  ls
+   73  cd Documents/swc/
+   74  cd ../
+   75  ls
+   76  pwd
+   77  cd /Documents
+   78  ls
+   79  cd /swc
+   80  ls
+   81  cd swc/
+   82  mv data.txt data_greencanyon_2013.txt
+   83  ls
+   84  mkdir backup
+   85  ls
+   86  mv data_greencanyon_2013.txt /backup/data_greencanyon_2013_backup.txt
+   87  cp data_greencanyon_2013.txt data_greencanyon_2013_backup.txt
+   88  mv data_greencanyon_2013_backup.txt backup
+   89  cd backup/
+   90  ls
+   91  cd swc
+   92  cd swc/
+   93  cd Documents/
+   94  cat data_greencanyon_2013.txt
+   95  cd Documents/swc
+   96  cd Documents/swc/
+   97  cd
+   98  cd Documents/swc
+   99  cd Documents/swc/
+  100  ls
+  101  cd /Documents
+  102  cd /swc
+  103  cd /Documents
+  104  ls
+  105  cd /swc
+  106  cd swc/
+  107  ls
+  108  sort -k 3 -n data_greencanyon_2013.txt
+  109  sort -k 3 -n data_greencanyon_2013.txt > sorted_counts.txt
+  110  ls
+  111  cat
+  112  tail sorted_counts.txt
+  113  tail -1 sorted_counts.txt
+  114  head -1 sorted_counts.txt
+  115  sort -k 3 -n data_greencanyon_2013.txt >sorted_counts.txt
+  116  cat sorted_counts.txt
+  117  ls
+  118  sort -n -k 3 data_greencanyon_2013.txt | head -2
+  119  sort -n -k 3 data_greencanyon_2013.txt | tail -1
+  120  ls
+  121  Rscript species_counts.R data_greencanyon_2013.txt
+  122  Rscript species_counts.R data_greencanyon_2013.txt | sort -k 2 -n
+  123  Rscript species_counts.R data_greencanyon_2013.txt | sort -k 2
+  124  Rscript species_counts.R data_greencanyon_2013.txt 
+  125  Rscript species_counts.R data_greencanyon_2013.txt > species_sort_byname.txt
+  126  cat species_sort_byname.txt
+  127  cat data_greencanyon_2013.txt
+  128  history
+  129  history > my_esa_2013.txt

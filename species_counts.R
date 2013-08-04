@@ -1,3 +1,4 @@
+# script written by Ted Hart
 # Count the number of individuals of each species in a data file
 #
 # Input file format:
